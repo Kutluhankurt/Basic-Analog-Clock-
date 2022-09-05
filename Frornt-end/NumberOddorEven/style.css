@@ -1,0 +1,51 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+}
+
+.container{
+  padding-top: 5%;
+  width: 50%;
+  margin: auto;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: center;
+  padding-left: 50px;
+}
+
+.form.group{
+  display: flex;
+  align-items: center;
+  
+}
+.form-control {
+        border-radius: 5%;
+        margin-left: 50px;
+      };
+  #sayi{
+    margin-left: 150px;
+    padding-left: 100px;
+  }
+
+      .button{
+        border: solid gray, 1px;  
+          background-color: gray;
+          border-radius: 10%;
+      }
+
+.btn-btn-primary{
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  margin-left: 115px;
+}
